@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'OpenSans'),
-      home: HomePage()
+      home: const HomePage()
     );
   }
 }
